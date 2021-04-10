@@ -7,36 +7,20 @@
   <title>music player</title>
 </head>
 <body>
-  <header class="header__main">
-    <a href="https://github.com/WeAreAthlon/frontend-webpack-boilerplate/" target="_blank">
-       <h1 class="title">
-         Webpack 5 Template Boilerplate
-       </h1>
-      </a>
-  </header>
-  <main>
-    <div class="container">
-      <ul class="main__list">
-        <li class="main__item"><a href="#" class="main__link">1</a></li>
-        <li class="main__item"><a href="#" class="main__link">2</a></li>
-        <li class="main__item"><a href="#" class="main__link">3</a></li>
-        <li class="main__item"><a href="#" class="main__link">
-          <i class="fa fa-facebook"></i>
-        </a></li>
-        <li class="main__item"><a href="#" class="main__link">
-          <i class="fa fa-youtube"></i>
-        </a></li>
-      </ul>
+<h1>Music player</h1>
 
-      <p class="text spacer">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti exercitationem explicabo asperiores deserunt voluptas sequi. Distinctio facere dolores reprehenderit ipsam assumenda. Deleniti at optio quod placeat, expedita atque illo molestias labore inventore consectetur totam distinctio pariatur neque fuga sed itaque?
-      </p>
-      <button class="btn btn--primary">button primary</button>
-      <a href="#" class="btn">button-link</a>
-
-      <img class="spacer" src='https://source.unsplash.com/random/200x200/?gril' alt='image' />
+<div class="music-container">
+  <div class="music-info">
+    <h4 id="title">Song</h4>
+    <div class="progress-container">
+      <div class="progress"></div>
     </div>
+  </div>
+  <audio src="" id="audio"></audio>
 
-  </main>
+  <div class="image-container">
+    <img src="" alt="" id="cover">
+  </div>
+</div>
 </body>
 </html>
