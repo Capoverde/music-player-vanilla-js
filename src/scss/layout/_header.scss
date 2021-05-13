@@ -2,10 +2,12 @@
                     HEADER
 ================================================== */
 
-.header__main {
-  padding: 2em;
-
-  h1 {
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $white;
+  opacity: 0.5;
 }

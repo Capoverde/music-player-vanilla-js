@@ -23,3 +23,15 @@
   @extend .btn;
   background: $link-hvr-c;
 }
+
+.action-btn {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    color: $link-hvr-c;
+    @include transition(color, 0.35s, ease-in-out);
+  }
+}
