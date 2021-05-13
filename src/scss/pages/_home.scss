@@ -1,0 +1,12 @@
+body {
+  background-color: #000000;
+  background-image: linear-gradient(to right, #6ab62f71, #de337556), url("../images/content/body-bg-3.jpg");
+  // background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
